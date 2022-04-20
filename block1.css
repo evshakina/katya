@@ -1,0 +1,45 @@
+
+.block1 {
+    min-height: 550px;
+    background-image: url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+    background-position: 20% 50%;
+    padding-left: 18%;
+}
+.header-block1 {
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 550px;
+    width: 1170px;
+}
+h1 {
+    width: 45%;
+    color: #f9f9f9;
+    font-size: 62px;
+    line-height: 1.2;
+    margin: 20px 0 10px;
+}
+p {
+    width: 45%;
+    font-size: 18px;
+    color: #f9f9f9;
+}
+.btn2 {
+    font-family: 'Sen', sans-serif;
+    color:#f9f9f9;
+    background-color: transparent;
+    max-width: 140px;
+    min-height: 36px;
+    padding: 5px 25px;
+    border-color: #f9f9f9;
+    border-radius: 5px;
+    border-style: solid;
+    border-width:1px;
+}
+.btn2:hover {
+    color: black;
+    background-color: #f9f9f9;
+}
