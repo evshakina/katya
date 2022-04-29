@@ -1,22 +1,29 @@
 .block2 {
     padding-top: 65px;
     padding-bottom: 65px;
-}
-.article-block2 {
+    padding-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     height: 647px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 214px;
-    margin-right: 214px;
 }
+
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .header-block2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
-    height: 72px;
+    margin-bottom: 40px;
 }
-h4 {
+
+h2 {
+    display: flex;
     font-family: Sen, sans-serif;
     color: #333;
     font-size: 16px;
@@ -25,10 +32,13 @@ h4 {
     margin-top: 0;
     margin-bottom: 0;
 }
-p4 {
+
+p2 {
+    display: flex;
     font-size: 40px;
 }
-h5 {
+
+h3 {
     font-weight: normal;
     font-size: 16px;
     display:flex;
@@ -37,32 +47,24 @@ h5 {
     width: 526.5px;
     height: 72px;
 }
-.p5-block2 {
+
+.support {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
-    max-width: 100%;
-}
-.black-blocks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 0;
-    padding-bottom: 0;
-    
+    padding-bottom: 0; 
 }
+
 .square-number {
     position: absolute;
     color: #f9f9f9;
     font-size: 40px;
     margin-top: 35px;
     margin-left: 35px;
-    padding-left: 0;
-    
+    padding-left: 0;   
 }
+
 .square-text {
     position: relative;
     color: #f9f9f9;
@@ -72,35 +74,31 @@ h5 {
     padding-left: 0;
     display: flex;
     text-align: center;
-    justify-content: center; 
-    
-          
+    justify-content: center;        
 }
+
 .circle {
     position: absolute;
     z-index: 1;
-    margin-bottom: 0;
-    margin-right: 0;
-    padding-left: 200px;
-    padding-top: 50px;
+    padding-left: 12%;
+    padding-top: 2%;
 }
+
 .triangle {
     position: absolute;
     z-index: 1;
-    margin-bottom: 0;
-    margin-right: 0;
-    padding-left: 180px;
-    padding-top: 90px;
+    padding-left: 12%;
+    padding-top: 4%;
 }
+
 .square {
     position: absolute;
     z-index: 1;
-    margin-bottom: 0;
-    margin-right: 0;
-    padding-left: 225px;
-    padding-top: 50px;
+    padding-left: 13%;
+    padding-top: 2%;
 }
-h6 {
+
+h4 {
     color: #F9F9F9;
     font-size: 40px;
     background-color: #222;
@@ -111,9 +109,17 @@ h6 {
     flex-direction: column;
     margin-bottom: 0px;
     margin-top: 0px;
+}
 
+p4 {
+    position: absolute;
+    display: flex;
+    margin-top: 45px;
+    z-index: 2;
+    max-width: 351px;
 }
-h7 {
+
+h5 {
     color: #F9F9F9;
     font-size: 40px;
     background-color: #222;
@@ -122,8 +128,19 @@ h7 {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-}    
-h8 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p5 {
+    position: absolute;
+    display: flex;
+    margin-top: 45px;
+    z-index: 2;
+    max-width: 351px;
+} 
+
+h6 {
     color: #F9F9F9;
     font-size: 40px;
     background-color: #222;
@@ -132,19 +149,14 @@ h8 {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 p6 {
+    position: absolute;
+    display: flex;
     margin-top: 45px;
-    z-index: 1;
-    max-width: 351px;
-}
-p7 {
-    margin-top: 45px;
-    z-index: 1;
-    max-width: 351px;
-}
-p8 {
-    margin-top: 45px;
-    z-index: 1;
+    z-index: 2;
     max-width: 351px;
 }
