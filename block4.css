@@ -1,0 +1,80 @@
+.block4 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.container4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shop-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.products {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h8 {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p8 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.tent {
+    background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);
+    min-height: 500px;
+    width: 370px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.price {
+    display:flex;
+    flex-direction: column;
+}
+
+h9 {
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tumbler {
+    background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg);
+    min-height: 500px;
+    width: 370px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.backpack {
+    background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg);
+    min-height: 500px;
+    width: 370px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
