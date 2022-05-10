@@ -36,6 +36,7 @@ h8 {
 p8 {
     font-size: 40px;
     line-height: 1.2;
+
 }
 
 .tent {
@@ -59,6 +60,12 @@ h9 {
     font-weight: 400;
 }
 
+p9 {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .tumbler {
     background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg);
     min-height: 500px;
@@ -77,4 +84,22 @@ h9 {
     background-size: cover;
     border-radius: 5px;
     margin-bottom: 15px;
+}
+
+.btn4 {
+    padding: 5px 25px;
+    background-color: #eb5757;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.btn4:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
 }
