@@ -103,3 +103,21 @@ p9 {
     background-color: black;
     border-color: black;
 }
+
+.btn5 {
+    padding: 5px 25px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lack;
+    border-radius: 5px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.btn5:hover {
+    color: white;
+    background-color: #eb5757;
+    border-color: #eb5757;
+}
