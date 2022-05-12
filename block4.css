@@ -69,6 +69,8 @@ p9 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .tumbler {
