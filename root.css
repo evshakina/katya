@@ -1,0 +1,41 @@
+h1:root {
+    --font-family: 'Sen', sans-serif;
+    --font-size: 62px;
+}
+
+h2:root {
+  --font-family: 'Sen', sans-serif;
+  --font-size: 40px;
+}
+
+.bkg-color-primary:root {
+    --color:#222222;
+}
+
+.color-primary:root {
+    --color:#222222;
+}
+
+.bkg-color-secondary:root {
+    --color: #333333;
+}
+
+.color-secondary:root {
+    --color: #333333;
+}
+
+.bkg-color-tertiary:root {
+    --color: #f9f9f9;
+}
+
+.color-tertiary:root {
+    --color:#f9f9f9;
+}
+
+.bkg-color-accent:root {
+    --color: #eb5757;
+}
+
+.color-accent:root {
+    --color: #eb5757;
+}
