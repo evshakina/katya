@@ -1,0 +1,24 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+}
+
+.parent {
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+@import url(media.css) (max-width:480px);
